@@ -1,3 +1,4 @@
+
 - title: |
     Book Club: The Pragmatic Programmer
   description: |
@@ -15,6 +16,8 @@
     path: https://www.meetup.com/women-coding-community/events/300856519
     title: View meetup event
     target: _blank
+  uid: "book_club:_the_pragmatic_programmer_20240530"
+  speaker: ""
 
 - title: |
     Getting Started with IaC - An Intro to Terraform
@@ -36,6 +39,8 @@
   resources:
     presentation: /assets/resources/events/tech-talk-060624.pdf
     youtube: https://youtu.be/Kc5hIYvqiUg
+  uid: "getting_started_with_iac_-_an_intro_to_terraform_20240606"
+  host: ""
 
 - title: |
     Writing Club with Women Coding Community
@@ -54,6 +59,8 @@
     path: https://www.meetup.com/women-coding-community/events/301218272/
     title: View meetup event
     target: _blank
+  uid: "writing_club_with_women_coding_community_20240613"
+  speaker: ""
 
 - title: |
     Polars: A Powerful Alternative To Pandas
@@ -73,6 +80,8 @@
     path: https://www.meetup.com/women-coding-community/events/301378711/
     title: View meetup event
     target: _blank
+  uid: "polars:_a_powerful_alternative_to_pandas_20240703"
+  host: ""
 
 - title: |
     Coding Club with Women Coding Community
@@ -91,6 +100,8 @@
     path: https://www.meetup.com/women-coding-community/events/301872113/
     title: View meetup event
     target: _blank
+  uid: "coding_club_with_women_coding_community_20240704"
+  speaker: ""
 
 - title: |
     Writing Club with Women Coding Community
@@ -109,6 +120,8 @@
     path: https://www.meetup.com/women-coding-community/events/301603784/
     title: View meetup event
     target: _blank
+  uid: "writing_club_with_women_coding_community_20240711"
+  speaker: ""
 
 - title: |
     Getting started with FaaS: An introduction to AWS Lambda
@@ -131,6 +144,8 @@
   resources:
     presentation: /assets/resources/events/tech-talk-170724.pdf
     youtube: https://youtu.be/jD-53z8rn0A
+  uid: "getting_started_with_faas:_an_introduction_to_aws_lambda_20240717"
+  host: ""
 
 - title: |
     Building Confidence in the Workplace
@@ -151,6 +166,8 @@
     target: _blank
   resources:
     youtube: https://youtu.be/lbO_icgJGME
+  uid: "building_confidence_in_the_workplace_20240723"
+  host: ""
 
 - title: |
     Leveraging FaaS: Hands-on Workshop with AWS Lambda Using NodeJS
@@ -170,6 +187,8 @@
     path: https://www.meetup.com/women-coding-community/events/302062622/
     title: View meetup event
     target: _blank
+  uid: "leveraging_faas:_hands-on_workshop_with_aws_lambda_using_nodejs_20240731"
+  host: ""
 
 - title: |
     Kedro: An open-source project for building maintainable data science pipelines
@@ -188,6 +207,8 @@
     path: https://www.meetup.com/women-coding-community/events/301960944/
     title: View meetup event
     target: _blank
+  uid: "kedro:_an_open-source_project_for_building_maintainable_data_science_pipelines_20240813"
+  host: ""
 
 - title: |
     Living on the Edge: Understanding Edge Computing on AWS
@@ -206,6 +227,8 @@
     path: https://www.meetup.com/women-coding-community/events/302490400/
     title: View meetup event
     target: _blank
+  uid: "living_on_the_edge:_understanding_edge_computing_on_aws_20240821"
+  host: ""
 
 - title: Volunteer with Women Coding Community
   description: |
@@ -223,6 +246,8 @@
     path: https://www.meetup.com/women-coding-community/events/302515055/
     title: View meetup event
     target: _blank
+  uid: "volunteer_with_women_coding_community_20240904"
+  host: ""
 
 - title: |
     Coding Club with Women Coding Community
@@ -242,6 +267,7 @@
     path: https://meetup.com/women-coding-community/events/302579035/
     title: View meetup event
     target: _target
+  uid: "coding_club_with_women_coding_community_20240905"
 
 - title: |
     Building REST services with SpringBoot
@@ -261,6 +287,7 @@
     path: https://meetup.com/women-coding-community/events/302792154/?eventOrigin=group_events_list
     title: View meetup event
     target: _target
+  uid: "building_rest_services_with_springboot_20240910"
 
 - title: |
     Writing Club with Women Coding Community - Learn about Infographics!
@@ -279,6 +306,8 @@
     path: https://meetup.com/women-coding-community/events/302907169
     title: View meetup event
     target: _target
+  uid: "writing_club_with_women_coding_community_-_learn_about_infographics!_20240912"
+  speaker: ""
 
 - title: |
     TDD/Unit Testing using Node.js and Jest
@@ -298,6 +327,7 @@
     path: https://meetup.com/women-coding-community/events/302890136/?eventOrigin=group_events_list
     title: View meetup event
     target: _target
+  uid: "tdd/unit_testing_using_node.js_and_jest_20240918"
 
 - title: |
     The Power of NLP: Transforming Text into Actionable Intelligence
@@ -317,6 +347,7 @@
     path: https://www.meetup.com/women-coding-community/events/302714738/?eventOrigin=group_events_list
     title: View meetup event
     target: _target
+  uid: "the_power_of_nlp:_transforming_text_into_actionable_intelligence_20241002"
 
 - title: Coding Club with Women Coding Community
   description: |
@@ -335,6 +366,7 @@
     path: https://www.meetup.com/women-coding-community/events/303263034/?eventOrigin=group_events_list
     title: View meetup event
     target: _target
+  uid: "coding_club_with_women_coding_community_20241003"
 
 - title: |
     The Power of Negotiation: Women Claiming Their Worth in Tech
@@ -353,6 +385,7 @@
     path: https://www.meetup.com/women-coding-community/events/303139655/?eventOrigin=group_events_list
     title: View meetup event
     target: _target
+  uid: "the_power_of_negotiation:_women_claiming_their_worth_in_tech_20241008"
 
 - title: |
     Writing Club - applying the Pyramid Principle in your writing
@@ -372,6 +405,7 @@
     path: https://www.meetup.com/women-coding-community/events/303682675/?eventOrigin=group_events_list
     title: View meetup event
     target: _target
+  uid: "writing_club_-_applying_the_pyramid_principle_in_your_writing_20241010"
 
 - title: Design Patterns Course
   description: |
@@ -390,6 +424,7 @@
     path: https://www.meetup.com/women-coding-community/events/303526166/?eventOrigin=group_events_list
     title: View meetup event
     target: _target
+  uid: "design_patterns_course_20241016"
 
 - title: |
     Book Club: Mindset
@@ -408,25 +443,7 @@
     path: https://www.meetup.com/women-coding-community/events/303700311/?eventOrigin=group_events_list
     title: View meetup event
     target: _target
-
-- title: |
-    Cloud Career Journeys: DevOps Engineering
-  description: |
-    Join Women Coding Community for the launch of an exciting series on exploring cloud careers! The series will feature expert speakers who are excelling in various cloud-based roles.
-  category_style: tech-talk
-  category_name: Tech Talk
-  date: TUE, OCT 29, 2024
-  expiration: "20241029"
-  host: "Airat Yusuff"
-  speaker: "Oyinkansola Aremu"
-  time: 7:00 PM UTC
-  image:
-    path: "https://secure.meetupstatic.com/photos/event/8/9/a/a/event_523775242.webp"
-    alt: "Cloud Career Journeys: DevOps Engineering cover photo"
-  link:
-    path: https://www.meetup.com/women-coding-community/events/303257659/?eventOrigin=group_events_list
-    title: View meetup event
-    target: _target
+  uid: "book_club:_mindset_20241024"
 
 - title: |
     Introduction to SurrealDB: A Modern Database for the Future
@@ -446,6 +463,27 @@
     path: https://www.meetup.com/women-coding-community/events/303450437
     title: View meetup event
     target: _target
+  uid: "introduction_to_surrealdb:_a_modern_database_for_the_future_20241028"
+
+- title: |
+    Cloud Career Journeys: DevOps Engineering
+  description: |
+    Join Women Coding Community for the launch of an exciting series on exploring cloud careers! The series will feature expert speakers who are excelling in various cloud-based roles.
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: TUE, OCT 29, 2024
+  expiration: "20241029"
+  host: "Airat Yusuff"
+  speaker: "Oyinkansola Aremu"
+  time: 7:00 PM UTC
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/8/9/a/a/event_523775242.webp"
+    alt: "Cloud Career Journeys: DevOps Engineering cover photo"
+  link:
+    path: https://www.meetup.com/women-coding-community/events/303257659/?eventOrigin=group_events_list
+    title: View meetup event
+    target: _target
+  uid: "cloud_career_journeys:_devops_engineering_20241029"
 
 - title: |
     Hands-On with SurrealDB: Exploring Key Features in Practice
@@ -464,6 +502,7 @@
     path: https://www.meetup.com/women-coding-community/events/303704265
     title: View meetup event
     target: _target
+  uid: "hands-on_with_surrealdb:_exploring_key_features_in_practice_20241104"
 
 - title: |
     Design Patterns Course
@@ -483,6 +522,7 @@
     path: https://www.meetup.com/women-coding-community/events/304160911
     title: View meetup event
     target: _target
+  uid: "design_patterns_course_20241106"
 
 - title: |
     SurrealDB and the WCC Platform: Practical Application in Real-World Projects
@@ -501,6 +541,7 @@
     path: https://www.meetup.com/women-coding-community/events/303704402
     title: View meetup event
     target: _target
+  uid: "surrealdb_and_the_wcc_platform:_practical_application_in_real-world_projects_20241111"
 
 - title: Design Patterns Course
   description: |
@@ -519,6 +560,7 @@
     path: https://www.meetup.com/women-coding-community/events/304160932/?eventOrigin=group_events_list
     title: View meetup event
     target: _target
+  uid: "design_patterns_course_20241120"
 
 - title: |
     Christmas Coding Challenge Kickoff: Unwrap Your Skills!
@@ -537,6 +579,7 @@
     path: https://www.meetup.com/women-coding-community/events/304549212/?eventOrigin=group_events_list
     title: View meetup event
     target: _target
+  uid: "christmas_coding_challenge_kickoff:_unwrap_your_skills!_20241125"
 
 - title: Design Patterns Course
   description: |
@@ -555,6 +598,7 @@
     path: https://www.meetup.com/women-coding-community/events/304160940/?eventOrigin=group_events_list
     title: View meetup event
     target: _target
+  uid: "design_patterns_course_20241127"
 
 - title: |
     Responsible AI: the impact of AI on the environment
@@ -573,6 +617,7 @@
     path: https://www.meetup.com/women-coding-community/events/303919087/?eventOrigin=group_events_list
     title: View meetup event
     target: _target
+  uid: "responsible_ai:_the_impact_of_ai_on_the_environment_20241202"
 
 - title: Design Patterns Course
   description: |
@@ -591,6 +636,7 @@
     path: https://www.meetup.com/women-coding-community/events/304160953/?eventOrigin=group_events_list
     title: View meetup event
     target: _target
+  uid: "design_patterns_course_20241204"
 
 - title: Design Patterns Course
   description: |
@@ -609,6 +655,7 @@
     path: https://www.meetup.com/women-coding-community/events/304160990/?eventOrigin=group_events_list
     title: View meetup event
     target: _target
+  uid: "design_patterns_course_20241211"
 
 - title: |
     Writing Club - applying the Pyramid Principle in your writing
@@ -628,6 +675,7 @@
     path: https://www.meetup.com/women-coding-community/events/303682675/?eventOrigin=group_events_list
     title: View meetup event
     target: _target
+  uid: "writing_club_-_applying_the_pyramid_principle_in_your_writing_20241212"
 
 - title: Design Patterns Course
   description: |
@@ -646,6 +694,7 @@
     path: https://www.meetup.com/women-coding-community/events/304161000/?eventOrigin=group_events_list
     title: View meetup event
     target: _target
+  uid: "design_patterns_course_20241218"
 
 - title: |
     Writing Club: Empowering Women through Writing
@@ -665,6 +714,7 @@
     path: https://www.meetup.com/women-coding-community/events/305628660/?eventOrigin=group_events_list
     title: View meetup event
     target: _target
+  uid: "writing_club:_empowering_women_through_writing_20250206"
 
 - title: |
     Coding Club Python : Data with Pandas - Session 2
@@ -684,6 +734,7 @@
     path: https://www.meetup.com/women-coding-community/events/305916894/?eventOrigin=group_events_list
     title: View meetup event
     target: _target
+  uid: "coding_club_python_:_data_with_pandas_-_session_2_20250213"
 
 - title: |
     Breaking barriers: How to enter and excel in consulting career
@@ -702,6 +753,7 @@
     path: https://www.meetup.com/women-coding-community/events/305868788/?eventOrigin=group_events_list
     title: View meetup event
     target: _target
+  uid: "breaking_barriers:_how_to_enter_and_excel_in_consulting_career_20250220"
 
 - title: |
     Book Club: Designing Machine Learning Systems
@@ -721,6 +773,7 @@
     path: https://www.meetup.com/women-coding-community/events/305685162/?eventOrigin=group_events_list
     title: View meetup event
     target: _target
+  uid: "book_club:_designing_machine_learning_systems_20250227"
 
 - title: |
     Coding Club Python : Data with Pandas - Session 3
@@ -740,6 +793,27 @@
     path: https://www.meetup.com/women-coding-community/events/305708050/?eventOrigin=group_events_list
     title: View meetup event
     target: _target
+  uid: "coding_club_python_:_data_with_pandas_-_session_3_20250227"
+
+- title: |
+    Celebrating International Women's Day
+  description: |
+    Join Women Coding Community, Women in Rust and SurrealDB as we celebrate the progress and achievements of women in technology and innovation!
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: THU, MAR 11, 2025
+  expiration: "20250312"
+  host: ""
+  speaker: ""
+  time: 6:00 PM UTC
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/4/1/1/a/600_526576666.webp"
+    alt: event cover
+  link:
+    path: https://www.meetup.com/women-coding-community/events/306483318/
+    title: View meetup event
+    target: _target
+  uid: "celebrating_international_women's_day_20250312"
 
 - title: |
     Coding Club Python : Data with Pandas - Session 4
@@ -759,31 +833,11 @@
     path: https://www.meetup.com/women-coding-community/events/305708664/?eventOrigin=group_events_list
     title: View meetup event
     target: _target
-
-
-- title: |
-    Celebrating International Women's Day
-  description: |
-    Join Women Coding Community, Women in Rust and SurrealDB as we celebrate the progress and achievements of women in technology and innovation!
-  category_style: tech-talk
-  category_name: Tech Talk
-  date: THU, MAR 11, 2025
-  expiration: "20250312"
-  host: ""
-  speaker: ""
-  time: 6:00 PM UTC
-  image:
-    path: "https://secure.meetupstatic.com/photos/event/4/1/1/a/600_526576666.webp"
-    alt: "event cover"
-  link:
-    path: https://www.meetup.com/women-coding-community/events/306483318/
-    title: View meetup event
-    target: _target
+  uid: "coding_club_python_:_data_with_pandas_-_session_4_20250313"
 
 - title: |
     Career Journey in Information Security
-  description: |
-    The Women Coding Community’s Career Club is excited to host a session on Career Journey in Information Security—a field that’s critical to everything we do in tech. From securing systems to protecting user data, cybersecurity is more important than ever, yet women remain underrepresented.
+  description: "The Women Coding Community\u2019s Career Club is excited to host a session on Career Journey in Information Security\u2014a field that\u2019s critical to everything we do in tech. From securing systems to protecting user data, cybersecurity is more important than ever, yet women remain underrepresented.\n"
   category_style: career-talk
   category_name: Carer Talk
   date: THU, MAR 20, 2025
@@ -793,18 +847,16 @@
   time: 8:00 PM UTC
   image:
     path: "https://secure.meetupstatic.com/photos/event/b/c/c/5/600_526488325.webp"
-    alt: "event cover"
+    alt: event cover
   link:
     path: https://www.meetup.com/women-coding-community/events/306434480
     title: View meetup event
     target: _target
-
+  uid: "career_journey_in_information_security_20250321"
 
 - title: |
     Book Club: Designing Machine Learning Systems (Part 2)
-  description: |
-    Part 2 of this bookclub: discussion of chapters 7-11 in the book. You can join even if you couldn’t make it to part 1.  This book will help you tackle scenarios such as:
-    Engineering data and choosing the right metrics to solve a business problem and much more.
+  description: "Part 2 of this bookclub: discussion of chapters 7-11 in the book. You can join even if you couldn\u2019t make it to part 1.  This book will help you tackle scenarios such as:\nEngineering data and choosing the right metrics to solve a business problem and much more.\n"
   category_style: book-club
   category_name: Book Club
   date: THU, MAR 24, 2025
@@ -814,18 +866,18 @@
   time: 8:00 PM UTC
   image:
     path: "https://secure.meetupstatic.com/photos/event/c/1/d/d/600_526609629.webp"
-    alt: "event cover"
+    alt: event cover
   link:
     path: https://www.meetup.com/women-coding-community/events/306547756/
     title: View meetup event
     target: _target
+  uid: "book_club:_designing_machine_learning_systems_(part_2)_20250325"
 
 - title: |
     WCC Annual Mentorship Program Launch
-  description: |
-    We’re excited to invite you to the official launch of the Women Coding Community (WCC) Annual Mentorship Program 2025!
-  category_style: ""
-  category_name: ""
+  description: "We\u2019re excited to invite you to the official launch of the Women Coding Community (WCC) Annual Mentorship Program 2025!\n"
+  category_style: ''
+  category_name: ''
   date: TUE, APR 8, 2025
   expiration: "20250409"
   host: ""
@@ -833,19 +885,18 @@
   time: 7:00 PM BST
   image:
     path: "https://secure.meetupstatic.com/photos/event/e/7/1/600_527163697.webp"
-    alt: "event cover"
+    alt: event cover
   link:
     path: https://www.meetup.com/women-coding-community/events/307017258/
     title: View meetup event
     target: _target
+  uid: "wcc_annual_mentorship_program_launch_20250409"
 
 - title: |
     WIR x WCC: Finding your voice in Tech
-  description: |
-    Join us for an evening of connection, conversation, and career growth at Finding Your Voice in Tech - a monthly meetup co-hosted by Women in Rust and Women Coding Community, 
-    designed to support and empower women at every stage of their tech journey.
-  category_style: "in-person"
-  category_name: "In-Person"
+  description: "Join us for an evening of connection, conversation, and career growth at Finding Your Voice in Tech - a monthly meetup co-hosted by Women in Rust and Women Coding Community, \ndesigned to support and empower women at every stage of their tech journey.\n"
+  category_style: in-person
+  category_name: In-Person
   date: TUE, APR 15, 2025
   expiration: "20250416"
   host: ""
@@ -853,19 +904,20 @@
   time: 6:00 PM BST
   image:
     path: "https://secure.meetupstatic.com/photos/event/8/d/2/8/600_526836136.webp"
-    alt: "event cover"
+    alt: event cover
   link:
     path: https://www.meetup.com/women-coding-community/events/306774768/
     title: View meetup event
     target: _target
-    
+  uid: "wir_x_wcc:_finding_your_voice_in_tech_20250416"
+
 - title: |
     From Contacts to Careers: the Power of Networking in Tech
   description: |
     Invitation: Women Coding Community Career Club Event:
     Your network is your net worth. - Porter Gale, a marketing expert and author of the book "Your Network Is Your Net Worth".
-  category_style: "career-talk"
-  category_name: "Career Talk"
+  category_style: career-talk
+  category_name: Career Talk
   date: THU, APR 17, 2025
   expiration: "20250418"
   host: "Madhura Chaganty"
@@ -873,19 +925,20 @@
   time: 7:00 PM BST
   image:
     path: "https://secure.meetupstatic.com/photos/event/9/a/3/c/600_526899484.webp"
-    alt: "event cover"
+    alt: event cover
   link:
     path: https://www.meetup.com/women-coding-community/events/306828123/
     title: View meetup event
-    target: _target 
+    target: _target
+  uid: "from_contacts_to_careers:_the_power_of_networking_in_tech_20250418"
 
 - title: |
     SQL Challenge Completion - Celebration Event
   description: |
     6-weeks SQL Challenge Completion:
-    This event is a celebration of achievement for all the incredible participants who successfully completed the SQL Data Challenge! 
-  category_style: "celebration"
-  category_name: "Celebration"
+    This event is a celebration of achievement for all the incredible participants who successfully completed the SQL Data Challenge!
+  category_style: celebration
+  category_name: Celebration
   date: TUE, APR 29, 2025
   expiration: "20250430"
   host: "Sonali Goel"
@@ -893,11 +946,12 @@
   time: 7:00 PM BST
   image:
     path: "https://secure.meetupstatic.com/photos/event/9/c/5/600_527162501.webp"
-    alt: "event cover"
+    alt: event cover
   link:
     path: https://www.meetup.com/women-coding-community/events/307093944/
     title: View meetup event
     target: _target
+  uid: "sql_challenge_completion_-_celebration_event_20250430"
 
 - title: |
     TDD Fundamentals & JavaScript Testing Tools
@@ -909,16 +963,17 @@
   category_name: Tech Talk
   date: FRI, MAY 23, 2025
   expiration: "20250524"
-  host: "Nevena Verbič and Turdugul (Gul) Okonbaeva"
+  host: "Nevena Verbi\u010D and Turdugul (Gul) Okonbaeva"
   speaker: "Wilson Adenuga"
   time: 9:00 PM BST
   image:
     path: "http://secure.meetupstatic.com/photos/event/4/5/7/d/highres_527957789.webp"
-    alt: "Frontend TDD with React cover photo"
+    alt: Frontend TDD with React cover photo
   link:
     path: https://www.meetup.com/women-coding-community/events/307827272
     title: View meetup event
     target: _target
+  uid: "tdd_fundamentals__javascript_testing_tools_20250524"
 
 - title: |
     Frontend TDD with React
@@ -930,16 +985,17 @@
   category_name: Tech Talk
   date: FRI, MAY 30, 2025
   expiration: "20250531"
-  host: "Nevena Verbič and Turdugul (Gul) Okonbaeva"
+  host: "Nevena Verbi\u010D and Turdugul (Gul) Okonbaeva"
   speaker: "Wilson Adenuga"
   time: 9:00 PM BST
   image:
     path: "https://secure.meetupstatic.com/photos/event/2/4/b/c/highres_528009404.webp"
-    alt: "Frontend TDD with React cover photo"
+    alt: Frontend TDD with React cover photo
   link:
     path: https://www.meetup.com/women-coding-community/events/307885148/
     title: View meetup event
     target: _target
+  uid: "frontend_tdd_with_react_20250531"
 
 - title: |
     Backend TDD with Node.js
@@ -951,16 +1007,17 @@
   category_name: Tech Talk
   date: FRI, JUN 6, 2025
   expiration: "20250607"
-  host: "Nevena Verbič and Turdugul (Gul) Okonbaeva"
+  host: "Nevena Verbi\u010D and Turdugul (Gul) Okonbaeva"
   speaker: "Wilson Adenuga"
   time: 9:00 PM BST
   image:
     path: "https://secure.meetupstatic.com/photos/event/2/5/1/8/highres_528009496.webp"
-    alt: "Backend TDD with Node.js cover photo"
+    alt: Backend TDD with Node.js cover photo
   link:
     path: https://www.meetup.com/women-coding-community/events/307885228
     title: View meetup event
     target: _target
+  uid: "backend_tdd_with_node.js_20250607"
 
 - title: |
     LeetCode Summer Bootcamp Week 2
@@ -976,17 +1033,15 @@
   time: 10:00 AM BST
   image:
     path: "https://secure.meetupstatic.com/photos/event/e/a/2/8/highres_528239944.webp"
-    alt: "Event cover photo"
+    alt: Event cover photo
   link:
     path: https://docs.google.com/forms/d/e/1FAIpQLSe6SgBuVDRifGSnehHf9I0YxAFj5LfZKyHj2eOox8zjx5ukuQ/viewform
     title: Register for event
     target: _target
+  uid: "leetcode_summer_bootcamp_week_2_20250607"
 
-- title: |
-    Defining System Requirements — A System Design Deep Dive (Part 1 of 2)
-  description: |
-    Whether you're preparing for system design interviews or architecting production-grade systems, being able to clearly define what your system must do — and under what constraints — is what separates good engineers from great ones.
-    This two-part series will guide you through both foundational and advanced aspects of defining system requirements in real-world scenarios.
+- title: "Defining System Requirements \u2014 A System Design Deep Dive (Part 1 of 2)\n"
+  description: "Whether you're preparing for system design interviews or architecting production-grade systems, being able to clearly define what your system must do \u2014 and under what constraints \u2014 is what separates good engineers from great ones.\nThis two-part series will guide you through both foundational and advanced aspects of defining system requirements in real-world scenarios.\n"
   category_style: tech-talk
   category_name: Tech Talk
   date: SUN, JUN 8, 2025
@@ -996,11 +1051,12 @@
   time: 6:00 PM BST
   image:
     path: "https://secure.meetupstatic.com/photos/event/5/7/b/3/highres_528322451.webp"
-    alt: "Event cover photo"
+    alt: Event cover photo
   link:
     path: https://www.meetup.com/women-coding-community/events/308233705/
     title: View meetup event
     target: _target
+  uid: "defining_system_requirements_\u2014_a_system_design_deep_dive_(part_1_of_2)_20250609"
 
 - title: |
     Advanced TDD Practices & Real-world Application
@@ -1012,34 +1068,55 @@
   category_name: Tech Talk
   date: FRI, JUN 13, 2025
   expiration: "20250614"
-  host: "Nevena Verbič and Turdugul (Gul) Okonbaeva"
+  host: "Nevena Verbi\u010D and Turdugul (Gul) Okonbaeva"
   speaker: "Wilson Adenuga"
   time: 9:00 PM BST
   image:
     path: "https://secure.meetupstatic.com/photos/event/2/5/d/7/highres_528009687.webp"
-    alt: "Event cover photo"
+    alt: Event cover photo
   link:
     path: https://www.meetup.com/women-coding-community/events/307885337/
     title: View meetup event
     target: _target
+  uid: "advanced_tdd_practices__real-world_application_20250614"
 
-- title: "Mentorship Check-In | How is Your Journey Going? (WCC Mentorship Programme 2025)"
+- title: "Defining System Requirements \u2014 A System Design Deep Dive (Part 2 of 2)\n"
   description: |
-    How is your mentorship journey going so far? Let's check in!  Join the Women Coding Community Mentorship Programme Team for a reflective and energizing Mentorship Check-In  designed to reconnect, share progress, and strengthen our community halfway through the 2025 program.
+    Designing robust, scalable systems starts with one essential step: defining system requirements.
   category_style: tech-talk
   category_name: Tech Talk
-  date: TUE, JUL 08, 2025
-  expiration: "20250708"
-  host: "Idayat Sanni and Rajashree Munoli"
-  speaker: ""
-  time: 08:00 PM BST
+  date: SUN, JUN 15, 2025
+  expiration: "20250615"
+  host: ""
+  speaker: "Shailaja Koppu, Liliiia Rafikova"
+  time: 06:00 PM BST
   image:
-    path: "https://secure.meetupstatic.com/photos/event/e/7/f/3/600_528419379.jpeg"
+    path: "https://secure.meetupstatic.com/photos/event/5/7/3/6/600_528502326.jpeg"
     alt: WCC Meetup event image
   link:
-    path: https://www.meetup.com/women-coding-community/events/308368038/
+    path: https://www.meetup.com/women-coding-community/events/308462205/
     title: View meetup event
     target: _target
+  uid: "defining_system_requirements_\u2014_a_system_design_deep_dive_(part_2_of_2)_20250615"
+
+- title: LeetCode Summer Bootcamp Week 3
+  description: |
+    Do you always feel frustrated by upcoming coding interviews? Do you feel overwhelmed by opening books and platforms to practice coding questions while trying to look at too many topics simultaneously?  Our intensive Summer Coding Bootcamp: From Zero to Hero! is designed to equip you with the essential knowledge and problem-solving techniques to confidently tackle even the most challenging coding interviews.
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: SAT, JUN 21, 2025
+  expiration: "20250621"
+  host: "Irina Kamalova, Lilia Rafikova and Nonna Shakhova"
+  speaker: ""
+  time: 10:00 AM BST
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/e/a/2/8/600_528239944.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/308136053/
+    title: View meetup event
+    target: _target
+  uid: "leetcode_summer_bootcamp_week_3_20250621"
 
 - title: |
     Book Club: Fundamentals of Data Engineering
@@ -1059,80 +1136,27 @@
     path: https://www.meetup.com/women-coding-community/events/307781742/
     title: View meetup event
     target: _target
-
-- title: LeetCode Summer Bootcamp Week 3
-  description: |
-    Do you always feel frustrated by upcoming coding interviews? Do you feel overwhelmed by opening books and platforms to practice coding questions while trying to look at too many topics simultaneously?  Our intensive Summer Coding Bootcamp: From Zero to Hero! is designed to equip you with the essential knowledge and problem-solving techniques to confidently tackle even the most challenging coding interviews.
-  category_style: tech-talk
-  category_name: Tech Talk
-  date: SAT, JUN 21, 2025
-  expiration: "20250621"
-  host: "Irina Kamalova, Lilia Rafikova and Nonna Shakhova"
-  speaker: ""
-  time: 10:00 AM BST
-  image:
-    path: "https://secure.meetupstatic.com/photos/event/e/a/2/8/600_528239944.jpeg"
-    alt: WCC Meetup event image
-  link:
-    path: https://www.meetup.com/women-coding-community/events/308136053/
-    title: View meetup event
-    target: _target
-
-- title: "Defining System Requirements \u2014 A System Design Deep Dive (Part 2 of 2)\n"
-  description: |
-    Designing robust, scalable systems starts with one essential step: defining system requirements.
-  category_style: tech-talk
-  category_name: Tech Talk
-  date: SUN, JUN 15, 2025
-  expiration: "20250615"
-  host: ""
-  speaker: "Shailaja Koppu, Liliiia Rafikova"
-  time: 06:00 PM BST
-  image:
-    path: "https://secure.meetupstatic.com/photos/event/5/7/3/6/600_528502326.jpeg"
-    alt: WCC Meetup event image
-  link:
-    path: https://www.meetup.com/women-coding-community/events/308462205/
-    title: View meetup event
-    target: _target
+  uid: "book_club:_fundamentals_of_data_engineering_20250630"
 
 - title: |
-    LeetCode Summer Bootcamp: Hard Level Week 3
+    Mentorship Check-In | How is Your Journey Going? (WCC Mentorship Programme 2025)
   description: |
-    Do you always feel frustrated by upcoming coding interviews? Do you feel overwhelmed by opening books and platforms to practice coding questions while trying to look at too many topics simultaneously?  Our intensive Summer Coding Bootcamp: From Zero to Hero! is designed to equip you with the essential knowledge and problem-solving techniques to confidently tackle even the most challenging coding interviews.
+    How is your mentorship journey going so far? Let's check in!  Join the Women Coding Community Mentorship Programme Team for a reflective and energizing Mentorship Check-In  designed to reconnect, share progress, and strengthen our community halfway through the 2025 program.
   category_style: tech-talk
   category_name: Tech Talk
-  date: SAT, AUG 16, 2025
-  expiration: "20250816"
-  host: "Irina Kamalova, Lilia Rafikova and Nonna Shakhova"
+  date: TUE, JUL 08, 2025
+  expiration: "20250708"
+  host: "Idayat Sanni and Rajashree Munoli"
   speaker: ""
-  time: 10:00 AM BST
+  time: 08:00 PM BST
   image:
-    path: "https://secure.meetupstatic.com/photos/event/9/6/2/5/600_529178437.jpeg"
+    path: "https://secure.meetupstatic.com/photos/event/e/7/f/3/600_528419379.jpeg"
     alt: WCC Meetup event image
   link:
-    path: https://www.meetup.com/women-coding-community/events/310058286/
+    path: https://www.meetup.com/women-coding-community/events/308368038/
     title: View meetup event
     target: _target
-
-- title: |
-    LeetCode Summer Bootcamp: Advanced Level Week 1
-  description: |
-    Do you always feel frustrated by upcoming coding interviews? Do you feel overwhelmed by opening books and platforms to practice coding questions while trying to look at too many topics simultaneously?  Our intensive Summer Coding Bootcamp: From Zero to Hero! is designed to equip you with the essential knowledge and problem-solving techniques to confidently tackle even the most challenging coding interviews.
-  category_style: tech-talk
-  category_name: Tech Talk
-  date: SAT, AUG 30, 2025
-  expiration: "20250830"
-  host: "Irina Kamalova, Lilia Rafikova and Nonna Shakhova"
-  speaker: ""
-  time: 10:00 AM BST
-  image:
-    path: "https://secure.meetupstatic.com/photos/event/9/6/5/6/600_529178486.jpeg"
-    alt: WCC Meetup event image
-  link:
-    path: https://www.meetup.com/women-coding-community/events/310058298/
-    title: View meetup event
-    target: _target
+  uid: "mentorship_check-in_|_how_is_your_journey_going?_(wcc_mentorship_programme_2025)_20250708"
 
 - title: |
     LeetCode Summer Bootcamp: Medium Level Week 4
@@ -1152,118 +1176,7 @@
     path: https://www.meetup.com/women-coding-community/events/308581301/
     title: View meetup event
     target: _target
-
-- title: |
-    Book Club: Never Eat Alone
-  description: |
-    About the Book "As Keith Ferrazzi discovered early in life, what distinguishes highly successful people from everyone else is the way they use the power of relationships - so that everyone wins.
-  category_style: book-club
-  category_name: Book Club
-  date: MON, JUL 28, 2025
-  expiration: "20250728"
-  host: "Silke Nodwell and Prabha Venkatesh"
-  speaker: ""
-  time: 07:00 PM BST
-  image:
-    path: "https://secure.meetupstatic.com/photos/event/a/0/9/c/600_528881116.jpeg"
-    alt: WCC Meetup event image
-  link:
-    path: https://www.meetup.com/women-coding-community/events/308829686/
-    title: View meetup event
-    target: _target
-
-- title: |
-    LeetCode Summer Bootcamp: Hard Level Week 1
-  description: |
-    Do you always feel frustrated by upcoming coding interviews? Do you feel overwhelmed by opening books and platforms to practice coding questions while trying to look at too many topics simultaneously?  Our intensive Summer Coding Bootcamp: From Zero to Hero! is designed to equip you with the essential knowledge and problem-solving techniques to confidently tackle even the most challenging coding interviews.
-  category_style: tech-talk
-  category_name: Tech Talk
-  date: SAT, AUG 02, 2025
-  expiration: "20250802"
-  host: "Irina Kamalova, Lilia Rafikova and Nonna Shakhova"
-  speaker: ""
-  time: 10:00 AM BST
-  image:
-    path: "https://secure.meetupstatic.com/photos/event/9/6/2/5/600_529178437.jpeg"
-    alt: WCC Meetup event image
-  link:
-    path: https://www.meetup.com/women-coding-community/events/310058272/
-    title: View meetup event
-    target: _target
-
-- title: |
-    LeetCode Summer Bootcamp: Hard Level Week 2
-  description: |
-    Do you always feel frustrated by upcoming coding interviews? Do you feel overwhelmed by opening books and platforms to practice coding questions while trying to look at too many topics simultaneously?  Our intensive Summer Coding Bootcamp: From Zero to Hero! is designed to equip you with the essential knowledge and problem-solving techniques to confidently tackle even the most challenging coding interviews.
-  category_style: tech-talk
-  category_name: Tech Talk
-  date: SAT, AUG 09, 2025
-  expiration: "20250809"
-  host: "Irina Kamalova, Lilia Rafikova and Nonna Shakhova"
-  speaker: ""
-  time: 10:00 AM BST
-  image:
-    path: "https://secure.meetupstatic.com/photos/event/9/6/2/5/600_529178437.jpeg"
-    alt: WCC Meetup event image
-  link:
-    path: https://www.meetup.com/women-coding-community/events/310058284/
-    title: View meetup event
-    target: _target
-
-- title: |
-    LeetCode Summer Bootcamp: Hard Level Week 4
-  description: |
-    Do you always feel frustrated by upcoming coding interviews? Do you feel overwhelmed by opening books and platforms to practice coding questions while trying to look at too many topics simultaneously?  Our intensive Summer Coding Bootcamp: From Zero to Hero! is designed to equip you with the essential knowledge and problem-solving techniques to confidently tackle even the most challenging coding interviews.
-  category_style: tech-talk
-  category_name: Tech Talk
-  date: SAT, AUG 23, 2025
-  expiration: "20250823"
-  host: "Irina Kamalova, Lilia Rafikova and Nonna Shakhova"
-  speaker: ""
-  time: 10:00 AM BST
-  image:
-    path: "https://secure.meetupstatic.com/photos/event/9/6/2/5/600_529178437.jpeg"
-    alt: WCC Meetup event image
-  link:
-    path: https://www.meetup.com/women-coding-community/events/310058289/
-    title: View meetup event
-    target: _target
-
-- title: |
-    Prepare Ahead for a Successful Application: An AWS Community Builders Workshop
-  description: |
-    Prepare Ahead for a Successful Application: An AWS Community Builders Workshop The AWS Community Builders program is a very popular and highly competitive initiative providing resources, mentorship, and networking opportunities to anyone passionate about AWS services.
-  category_style: tech-talk
-  category_name: Tech Talk
-  date: TUE, JUL 29, 2025
-  expiration: "20250729"
-  host: "Madhura Chaganty and Nicole Muswati"
-  speaker: "Airat Yusuff"
-  time: 07:00 PM BST
-  image:
-    path: "https://secure.meetupstatic.com/photos/event/8/7/7/4/600_528874676.jpeg"
-    alt: WCC Meetup event image
-  link:
-    path: https://www.meetup.com/women-coding-community/events/308819145/
-    title: View meetup event
-    target: _target
-
-- title: "\U0001F3A4 Redefining Influence for Women in Tech"
-  description: "Master the Science of Persuasion to Amplify Your Impact   Are you ready to transform how you show up in rooms that matter? In tech, competence alone doesn\u2019t drive influence - presence does.\n"
-  category_style: tech-talk
-  category_name: Tech Talk
-  date: THU, JUL 31, 2025
-  expiration: "20250731"
-  host: "Madhura Chaganty"
-  speaker: "Rajani Rao, Principal Engineer, Principal Technologist & Women Coding Community Co-Founder"
-  time: 07:00 PM BST
-  image:
-    path: "https://secure.meetupstatic.com/photos/event/8/d/3/3/600_528936147.jpeg"
-    alt: WCC Meetup event image
-  link:
-    path: https://www.meetup.com/women-coding-community/events/308918302/
-    title: View meetup event
-    target: _target
+  uid: "leetcode_summer_bootcamp:_medium_level_week_4_20250726"
 
 - title: |
     Traffic Management Demystified: Load Balancers & Reverse Proxies Explained
@@ -1283,6 +1196,165 @@
     path: https://www.meetup.com/women-coding-community/events/310007990/
     title: View meetup event
     target: _target
+  uid: "traffic_management_demystified:_load_balancers__reverse_proxies_explained_20250727"
+
+- title: |
+    Book Club: Never Eat Alone
+  description: |
+    About the Book "As Keith Ferrazzi discovered early in life, what distinguishes highly successful people from everyone else is the way they use the power of relationships - so that everyone wins.
+  category_style: book-club
+  category_name: Book Club
+  date: MON, JUL 28, 2025
+  expiration: "20250728"
+  host: "Silke Nodwell and Prabha Venkatesh"
+  speaker: ""
+  time: 07:00 PM BST
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/a/0/9/c/600_528881116.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/308829686/
+    title: View meetup event
+    target: _target
+  uid: "book_club:_never_eat_alone_20250728"
+
+- title: |
+    Prepare Ahead for a Successful Application: An AWS Community Builders Workshop
+  description: |
+    Prepare Ahead for a Successful Application: An AWS Community Builders Workshop The AWS Community Builders program is a very popular and highly competitive initiative providing resources, mentorship, and networking opportunities to anyone passionate about AWS services.
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: TUE, JUL 29, 2025
+  expiration: "20250729"
+  host: "Madhura Chaganty and Nicole Muswati"
+  speaker: "Airat Yusuff"
+  time: 07:00 PM BST
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/8/7/7/4/600_528874676.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/308819145/
+    title: View meetup event
+    target: _target
+  uid: "prepare_ahead_for_a_successful_application:_an_aws_community_builders_workshop_20250729"
+
+- title: "\U0001F3A4 Redefining Influence for Women in Tech"
+  description: "Master the Science of Persuasion to Amplify Your Impact   Are you ready to transform how you show up in rooms that matter? In tech, competence alone doesn\u2019t drive influence - presence does.\n"
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: THU, JUL 31, 2025
+  expiration: "20250731"
+  host: "Madhura Chaganty"
+  speaker: "Rajani Rao, Principal Engineer, Principal Technologist & Women Coding Community Co-Founder"
+  time: 07:00 PM BST
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/8/d/3/3/600_528936147.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/308918302/
+    title: View meetup event
+    target: _target
+  uid: "\U0001F3A4_redefining_influence_for_women_in_tech_20250731"
+
+- title: |
+    LeetCode Summer Bootcamp: Hard Level Week 1
+  description: |
+    Do you always feel frustrated by upcoming coding interviews? Do you feel overwhelmed by opening books and platforms to practice coding questions while trying to look at too many topics simultaneously?  Our intensive Summer Coding Bootcamp: From Zero to Hero! is designed to equip you with the essential knowledge and problem-solving techniques to confidently tackle even the most challenging coding interviews.
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: SAT, AUG 02, 2025
+  expiration: "20250802"
+  host: "Irina Kamalova, Lilia Rafikova and Nonna Shakhova"
+  speaker: ""
+  time: 10:00 AM BST
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/9/6/2/5/600_529178437.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/310058272/
+    title: View meetup event
+    target: _target
+  uid: "leetcode_summer_bootcamp:_hard_level_week_1_20250802"
+
+- title: |
+    LeetCode Summer Bootcamp: Hard Level Week 2
+  description: |
+    Do you always feel frustrated by upcoming coding interviews? Do you feel overwhelmed by opening books and platforms to practice coding questions while trying to look at too many topics simultaneously?  Our intensive Summer Coding Bootcamp: From Zero to Hero! is designed to equip you with the essential knowledge and problem-solving techniques to confidently tackle even the most challenging coding interviews.
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: SAT, AUG 09, 2025
+  expiration: "20250809"
+  host: "Irina Kamalova, Lilia Rafikova and Nonna Shakhova"
+  speaker: ""
+  time: 10:00 AM BST
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/9/6/2/5/600_529178437.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/310058284/
+    title: View meetup event
+    target: _target
+  uid: "leetcode_summer_bootcamp:_hard_level_week_2_20250809"
+
+- title: |
+    LeetCode Summer Bootcamp: Hard Level Week 3
+  description: |
+    Do you always feel frustrated by upcoming coding interviews? Do you feel overwhelmed by opening books and platforms to practice coding questions while trying to look at too many topics simultaneously?  Our intensive Summer Coding Bootcamp: From Zero to Hero! is designed to equip you with the essential knowledge and problem-solving techniques to confidently tackle even the most challenging coding interviews.
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: SAT, AUG 16, 2025
+  expiration: "20250816"
+  host: "Irina Kamalova, Lilia Rafikova and Nonna Shakhova"
+  speaker: ""
+  time: 10:00 AM BST
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/9/6/2/5/600_529178437.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/310058286/
+    title: View meetup event
+    target: _target
+  uid: "leetcode_summer_bootcamp:_hard_level_week_3_20250816"
+
+- title: |
+    LeetCode Summer Bootcamp: Hard Level Week 4
+  description: |
+    Do you always feel frustrated by upcoming coding interviews? Do you feel overwhelmed by opening books and platforms to practice coding questions while trying to look at too many topics simultaneously?  Our intensive Summer Coding Bootcamp: From Zero to Hero! is designed to equip you with the essential knowledge and problem-solving techniques to confidently tackle even the most challenging coding interviews.
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: SAT, AUG 23, 2025
+  expiration: "20250823"
+  host: "Irina Kamalova, Lilia Rafikova and Nonna Shakhova"
+  speaker: ""
+  time: 10:00 AM BST
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/9/6/2/5/600_529178437.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/310058289/
+    title: View meetup event
+    target: _target
+  uid: "leetcode_summer_bootcamp:_hard_level_week_4_20250823"
+
+- title: |
+    LeetCode Summer Bootcamp: Advanced Level Week 1
+  description: |
+    Do you always feel frustrated by upcoming coding interviews? Do you feel overwhelmed by opening books and platforms to practice coding questions while trying to look at too many topics simultaneously?  Our intensive Summer Coding Bootcamp: From Zero to Hero! is designed to equip you with the essential knowledge and problem-solving techniques to confidently tackle even the most challenging coding interviews.
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: SAT, AUG 30, 2025
+  expiration: "20250830"
+  host: "Irina Kamalova, Lilia Rafikova and Nonna Shakhova"
+  speaker: ""
+  time: 10:00 AM BST
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/9/6/5/6/600_529178486.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/310058298/
+    title: View meetup event
+    target: _target
+  uid: "leetcode_summer_bootcamp:_advanced_level_week_1_20250830"
 
 - title: |
     Mentorship Check-In: Share, Reflect, Grow
@@ -1301,6 +1373,7 @@
     path: https://www.meetup.com/women-coding-community/events/310809202/
     title: View meetup event
     target: _target
+  uid: "mentorship_check-in:_share_reflect_grow_20250925"
 
 - title: |
     Prompt Engineering Book Club & Networking Challenge Highlights
@@ -1320,6 +1393,7 @@
     path: https://www.meetup.com/women-coding-community/events/310192375/
     title: View meetup event
     target: _target
+  uid: "prompt_engineering_book_club__networking_challenge_highlights_20250929"
 
 - title: |
     Microsoft Certifications: An Overview
@@ -1339,6 +1413,7 @@
     path: https://www.meetup.com/women-coding-community/events/311050644/
     title: View meetup event
     target: _target
+  uid: "microsoft_certifications:_an_overview_20251001"
 
 - title: |
     Business, Career, & Motherhood
@@ -1357,6 +1432,25 @@
     path: https://www.meetup.com/women-coding-community/events/310345118/
     title: View meetup event
     target: _target
+  uid: "business_career__motherhood_20251008"
+
+- title: "\U0001F331 Journey into Green Coding: One Thoughtful Commit at a Time \U0001F4BB\n"
+  description: "Climate action is only possible when it\u2019s accessible to everyone and software engineers have a unique role to play."
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: WED, OCT 15, 2025
+  expiration: "20251015"
+  host: "Madhura Chaganty"
+  speaker: "Thuyet (Tia) Nguyen"
+  time: 07:00 PM BST
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/b/7/4/9/600_530446921.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/311271028/
+    title: View meetup event
+    target: _target
+  uid: "\U0001F331_journey_into_green_coding:_one_thoughtful_commit_at_a_time_\U0001F4BB_20251015"
 
 - title: |
     October Book Club (Soft Skills Month)
@@ -1376,26 +1470,7 @@
     path: https://www.meetup.com/women-coding-community/events/310632213/
     title: View meetup event
     target: _target
-
-- title: |
-    November Book Club: Designing Data-Intensive Applications
-  description: |
-    This book will help you:   Peer under the hood of the systems you already use, and learn how to use and operate them more effectively  Make informed decisions by identifying the strengths and weaknesses of different tools  Navigate the trade-offs around consistency, scalability, fault tolerance, and complexity  Understand the distributed systems research upon which modern databases are built  Peek behind the scenes of major online services, and learn from their architectures  - Goodreads  If you want to have a say in the next book, please join our Slack channel progbookclub! And if you would like to volunteer, do join our volunteering channel bookclubvolunteers.
-  category_style: book-club
-  category_name: Book Club
-  date: MON, NOV 24, 2025
-  expiration: "20251124"
-  host: "Silke Nodwell and Prabha Venkatesh"
-  speaker: ""
-  time: 07:00 PM GMT
-  image:
-    path: "https://secure.meetupstatic.com/photos/event/3/4/d/b/600_529753531.jpeg"
-    alt: WCC Meetup event image
-  link:
-    path: https://www.meetup.com/women-coding-community/events/310632593/
-    title: View meetup event
-    target: _target
-
+  uid: "october_book_club_(soft_skills_month)_20251027"
 
 - title: |
     Book Club: Wild Courage
@@ -1415,23 +1490,7 @@
     path: https://www.meetup.com/women-coding-community/events/310632213/
     title: View meetup event
     target: _target
-
-- title: "\U0001F331 Journey into Green Coding: One Thoughtful Commit at a Time \U0001F4BB\n"
-  description: "Climate action is only possible when it\u2019s accessible to everyone and software engineers have a unique role to play."
-  category_style: tech-talk
-  category_name: Tech Talk
-  date: WED, OCT 15, 2025
-  expiration: "20251015"
-  host: "Madhura Chaganty"
-  speaker: "Thuyet (Tia) Nguyen"
-  time: 07:00 PM BST
-  image:
-    path: "https://secure.meetupstatic.com/photos/event/b/7/4/9/600_530446921.jpeg"
-    alt: WCC Meetup event image
-  link:
-    path: https://www.meetup.com/women-coding-community/events/311271028/
-    title: View meetup event
-    target: _target
+  uid: "book_club:_wild_courage_20251027"
 
 - title: Redefining the Product Design Landscape with AI and Human Intuition
   description: "The future of design isn\u2019t human versus machine, it\u2019s human with machine.\n"
@@ -1449,6 +1508,7 @@
     path: https://www.meetup.com/women-coding-community/events/311327586/
     title: View meetup event
     target: _target
+  uid: "redefining_the_product_design_landscape_with_ai_and_human_intuition_20251030"
 
 - title: |
     Vibe Coding: The Future of Building with AI
@@ -1468,6 +1528,7 @@
     path: https://www.meetup.com/women-coding-community/events/311309899/
     title: View meetup event
     target: _target
+  uid: "vibe_coding:_the_future_of_building_with_ai_20251104"
 
 - title: |
     AI Learning Series - AI Fundamentals, LLM APIs
@@ -1487,79 +1548,7 @@
     path: https://www.meetup.com/women-coding-community/events/311429083/
     title: View meetup event
     target: _target
-
-- title: Writing Club
-  description: |
-    Welcome to Writing Club!  We are re-launching our popular Writing Club.
-  category_style: writing-club
-  category_name: Writing Club
-  date: THU, NOV 13, 2025
-  expiration: "20251113"
-  host: ""
-  speaker: ""
-  time: 07:00 PM GMT
-  image:
-    path: "https://secure.meetupstatic.com/photos/event/9/e/0/9/600_530920457.jpeg"
-    alt: WCC Meetup event image
-  link:
-    path: https://www.meetup.com/women-coding-community/events/311706843/
-    title: View meetup event
-    target: _target
-
-- title: |
-    Crush Your Tech Career Goals: An Exclusive Coaching Session with Industry Leads
-  description: |
-    Crush Your Tech Career Goals: An Exclusive Coaching Session with Industry Leaders  Ready to level up your engineering career? Join us for a special coaching session led by two powerhouses in tech:  Rajani Rao  LinkedIn  Principal Technologist at AVEVA, Director of Women Coding Community, and champion for women in innovation.
-  category_style: tech-talk
-  category_name: Tech Talk
-  date: THU, NOV 20, 2025
-  expiration: "20251120"
-  host: ""
-  speaker: ""
-  time: 07:00 PM GMT
-  image:
-    path: "https://secure.meetupstatic.com/photos/event/3/f/7/5/600_530956245.jpeg"
-    alt: WCC Meetup event image
-  link:
-    path: https://www.meetup.com/women-coding-community/events/311721631/
-    title: View meetup event
-    target: _target
-
-- title: Volunteering at WomenCodingCommunity
-  description: "How you can volunteer: If you share our vision of supporting and uplifting women in tech, we\u2019d love to have you join our volunteer team!   Love connecting with people? Volunteer as an event host and interact with our amazing speakers.\n"
-  category_style: tech-talk
-  category_name: Tech Talk
-  date: SUN, NOV 16, 2025
-  expiration: "20251116"
-  host: "Ying Liu and Silke Nodwell"
-  speaker: ""
-  time: 07:30 PM GMT
-  image:
-    path: "https://secure.meetupstatic.com/photos/event/b/6/2/f/600_530986639.jpeg"
-    alt: WCC Meetup event image
-  link:
-    path: https://www.meetup.com/women-coding-community/events/311715417/
-    title: View meetup event
-    target: _target
-
-- title: |
-    January Book Club: Radical Candor
-  description: |
-    Women Coding Community Book Club!  Book: Radical Candor by Kim Scott  If you would like to have a say in our next book club read, do join our channel progbookclub.
-  category_style: book-club
-  category_name: Book Club
-  date: MON, JAN 26, 2026
-  expiration: "20260126"
-  host: "Silke Nodwell and Prabha Venkatesh"
-  speaker: ""
-  time: 07:00 PM GMT
-  image:
-    path: "https://secure.meetupstatic.com/photos/event/c/0/1/4/600_530869172.jpeg"
-    alt: WCC Meetup event image
-  link:
-    path: https://www.meetup.com/women-coding-community/events/311641238/
-    title: View meetup event
-    target: _target
+  uid: "ai_learning_series_-_ai_fundamentals_llm_apis_20251105"
 
 - title: |
     AI Learning Series - Prompt Engineering & Techniques
@@ -1579,44 +1568,44 @@
     path: https://www.meetup.com/women-coding-community/events/311861053/
     title: View meetup event
     target: _target
+  uid: "ai_learning_series_-_prompt_engineering__techniques_20251112"
 
-- title: |
-    Christmas Coding Challenge 2025 Kickoff: Unwrap Your Skills!
+- title: Writing Club
   description: |
-    Christmas Coding Challenge 2025   Get ready to sharpen your coding skills this holiday season! Join us for a month-long annual Christmas Coding Challenge!  Whether you're looking to level up in Git, conquer LeetCode problems, improve your self-study habits, or tackle SQL  this challenge is for you.
-  category_style: tech-talk
-  category_name: Tech Talk
-  date: THU, NOV 27, 2025
-  expiration: "20251127"
+    Welcome to Writing Club!  We are re-launching our popular Writing Club.
+  category_style: writing-club
+  category_name: Writing Club
+  date: THU, NOV 13, 2025
+  expiration: "20251113"
   host: ""
   speaker: ""
   time: 07:00 PM GMT
   image:
-    path: "https://secure.meetupstatic.com/photos/event/b/e/f/b/600_531228891.jpeg"
+    path: "https://secure.meetupstatic.com/photos/event/9/e/0/9/600_530920457.jpeg"
     alt: WCC Meetup event image
   link:
-    path: https://www.meetup.com/women-coding-community/events/311940956/
+    path: https://www.meetup.com/women-coding-community/events/311706843/
     title: View meetup event
     target: _target
+  uid: "writing_club_20251113"
 
-- title: |
-    Volunteer with Code Club, empower the next generation
-  description: |
-    Know How To - Volunteer with Code Club, empower the next generation ( partnered with Raspberry Pi Foundation)  What the event is about ? Code Club Community Manager, Steph will provide an introduction to all things Code Club.
+- title: Volunteering at WomenCodingCommunity
+  description: "How you can volunteer: If you share our vision of supporting and uplifting women in tech, we\u2019d love to have you join our volunteer team!   Love connecting with people? Volunteer as an event host and interact with our amazing speakers.\n"
   category_style: tech-talk
   category_name: Tech Talk
-  date: THU, DEC 04, 2025
-  expiration: "20251204"
-  host: "Steph Burton and Sonali Goel"
+  date: SUN, NOV 16, 2025
+  expiration: "20251116"
+  host: "Ying Liu and Silke Nodwell"
   speaker: ""
-  time: 06:00 PM GMT
+  time: 07:30 PM GMT
   image:
-    path: "https://secure.meetupstatic.com/photos/event/c/d/d/a/600_531232698.jpeg"
+    path: "https://secure.meetupstatic.com/photos/event/b/6/2/f/600_530986639.jpeg"
     alt: WCC Meetup event image
   link:
-    path: https://www.meetup.com/women-coding-community/events/311943683/
+    path: https://www.meetup.com/women-coding-community/events/311715417/
     title: View meetup event
     target: _target
+  uid: "volunteering_at_womencodingcommunity_20251116"
 
 - title: |
     AI Learning Series -  Introduction to RAG
@@ -1636,6 +1625,47 @@
     path: https://www.meetup.com/women-coding-community/events/311991750/
     title: View meetup event
     target: _target
+  uid: "ai_learning_series_-_introduction_to_rag_20251119"
+
+- title: |
+    Crush Your Tech Career Goals: An Exclusive Coaching Session with Industry Leads
+  description: |
+    Crush Your Tech Career Goals: An Exclusive Coaching Session with Industry Leaders  Ready to level up your engineering career? Join us for a special coaching session led by two powerhouses in tech:  Rajani Rao  LinkedIn  Principal Technologist at AVEVA, Director of Women Coding Community, and champion for women in innovation.
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: THU, NOV 20, 2025
+  expiration: "20251120"
+  host: ""
+  speaker: ""
+  time: 07:00 PM GMT
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/3/f/7/5/600_530956245.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/311721631/
+    title: View meetup event
+    target: _target
+  uid: "crush_your_tech_career_goals:_an_exclusive_coaching_session_with_industry_leads_20251120"
+
+- title: |
+    November Book Club: Designing Data-Intensive Applications
+  description: |
+    This book will help you:   Peer under the hood of the systems you already use, and learn how to use and operate them more effectively  Make informed decisions by identifying the strengths and weaknesses of different tools  Navigate the trade-offs around consistency, scalability, fault tolerance, and complexity  Understand the distributed systems research upon which modern databases are built  Peek behind the scenes of major online services, and learn from their architectures  - Goodreads  If you want to have a say in the next book, please join our Slack channel progbookclub! And if you would like to volunteer, do join our volunteering channel bookclubvolunteers.
+  category_style: book-club
+  category_name: Book Club
+  date: MON, NOV 24, 2025
+  expiration: "20251124"
+  host: "Silke Nodwell and Prabha Venkatesh"
+  speaker: ""
+  time: 07:00 PM GMT
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/3/4/d/b/600_529753531.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/310632593/
+    title: View meetup event
+    target: _target
+  uid: "november_book_club:_designing_data-intensive_applications_20251124"
 
 - title: |
     AI Learning Series - AI Agents - Part 1 - Single Agents
@@ -1655,25 +1685,27 @@
     path: https://www.meetup.com/women-coding-community/events/311991792/
     title: View meetup event
     target: _target
+  uid: "ai_learning_series_-_ai_agents_-_part_1_-_single_agents_20251126"
 
 - title: |
-    AI Learning Series - AI Agents - Part 2 -Multi-Agents System
+    Christmas Coding Challenge 2025 Kickoff: Unwrap Your Skills!
   description: |
-    AI Learning Series- AI Agents - Part 2 (Multi-Agents System) (Session-5)  Learning Objectives:   Design multi-agent architectures  Implement agent-to-agent communication  Coordinate specialised agents  Handle complex workflows with multiple agents  Series Details - A hands-on, 6-week journey where you'll learn to build modern AI applications - chatbots, smart search systems, AI agents, and more.
+    Christmas Coding Challenge 2025   Get ready to sharpen your coding skills this holiday season! Join us for a month-long annual Christmas Coding Challenge!  Whether you're looking to level up in Git, conquer LeetCode problems, improve your self-study habits, or tackle SQL  this challenge is for you.
   category_style: tech-talk
   category_name: Tech Talk
-  date: WED, DEC 03, 2025
-  expiration: "20251203"
-  host: "Sonika Janagill, Sonali Goel"
+  date: THU, NOV 27, 2025
+  expiration: "20251127"
+  host: ""
   speaker: ""
   time: 07:00 PM GMT
   image:
-    path: "https://secure.meetupstatic.com/photos/event/b/6/9/2/600_531286738.jpeg"
+    path: "https://secure.meetupstatic.com/photos/event/b/e/f/b/600_531228891.jpeg"
     alt: WCC Meetup event image
   link:
-    path: https://www.meetup.com/women-coding-community/events/311991816/
+    path: https://www.meetup.com/women-coding-community/events/311940956/
     title: View meetup event
     target: _target
+  uid: "christmas_coding_challenge_2025_kickoff:_unwrap_your_skills!_20251127"
 
 - title: |
     From Brainstorm to Beta: Accelerating MVPs with AI
@@ -1693,6 +1725,47 @@
     path: https://www.meetup.com/women-coding-community/events/312066436/
     title: View meetup event
     target: _target
+  uid: "from_brainstorm_to_beta:_accelerating_mvps_with_ai_20251202"
+
+- title: |
+    AI Learning Series - AI Agents - Part 2 -Multi-Agents System
+  description: |
+    AI Learning Series- AI Agents - Part 2 (Multi-Agents System) (Session-5)  Learning Objectives:   Design multi-agent architectures  Implement agent-to-agent communication  Coordinate specialised agents  Handle complex workflows with multiple agents  Series Details - A hands-on, 6-week journey where you'll learn to build modern AI applications - chatbots, smart search systems, AI agents, and more.
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: WED, DEC 03, 2025
+  expiration: "20251203"
+  host: "Sonika Janagill, Sonali Goel"
+  speaker: ""
+  time: 07:00 PM GMT
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/b/6/9/2/600_531286738.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/311991816/
+    title: View meetup event
+    target: _target
+  uid: "ai_learning_series_-_ai_agents_-_part_2_-multi-agents_system_20251203"
+
+- title: |
+    Volunteer with Code Club, empower the next generation
+  description: |
+    Know How To - Volunteer with Code Club, empower the next generation ( partnered with Raspberry Pi Foundation)  What the event is about ? Code Club Community Manager, Steph will provide an introduction to all things Code Club.
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: THU, DEC 04, 2025
+  expiration: "20251204"
+  host: "Steph Burton and Sonali Goel"
+  speaker: ""
+  time: 06:00 PM GMT
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/c/d/d/a/600_531232698.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/311943683/
+    title: View meetup event
+    target: _target
+  uid: "volunteer_with_code_club_empower_the_next_generation_20251204"
 
 - title: |
     Year-End Celebration: Women Coding Community
@@ -1711,25 +1784,7 @@
     path: https://www.meetup.com/women-coding-community/events/312101413/
     title: View meetup event
     target: _target
-
-- title: |
-    UPDATED Nov Book Club: Designing Data-Intensive Applications
-  description: |
-    UPDATE: Date changed from 24 Nov to Dec 15  This book will help yom   Peer under the hood of the systems you already use, and learn how to use and operate them more effectively  Make informed decisions by identifying the strengths and weaknesses of different tools  Navigate the trade-offs around consistency, scalability, fault tolerance, and complexity  Understand the distributed systems research upon which modern databases are built  Peek behind the scenes of major online services, and learn from their architectures  - Goodreads  If you want to have a say in the next book, please join our Slack channel progbookclub! And if you would like to volunteer, do join our volunteering channel bookclubvolunteers.
-  category_style: book-club
-  category_name: Book Club
-  date: MON, DEC 15, 2025
-  expiration: "20251215"
-  host: "Silke Nodwell and Prabha Venkatesh"
-  speaker: ""
-  time: 07:00 PM GMT
-  image:
-    path: "https://secure.meetupstatic.com/photos/event/3/4/d/b/600_529753531.jpeg"
-    alt: WCC Meetup event image
-  link:
-    path: https://www.meetup.com/women-coding-community/events/310632593/
-    title: View meetup event
-    target: _target
+  uid: "year-end_celebration:_women_coding_community_20251205"
 
 - title: |
     AI Learning Series - LLM evaluations & ADK agents deployment
@@ -1749,6 +1804,7 @@
     path: https://www.meetup.com/women-coding-community/events/312187011/
     title: View meetup event
     target: _target
+  uid: "ai_learning_series_-_llm_evaluations__adk_agents_deployment_20251210"
 
 - title: |
     AI Learning Series - ADK agents evaluations & deployment
@@ -1768,6 +1824,27 @@
     path: https://www.meetup.com/women-coding-community/events/312187011/
     title: View meetup event
     target: _target
+  uid: "ai_learning_series_-_adk_agents_evaluations__deployment_20251210"
+
+- title: |
+    UPDATED Nov Book Club: Designing Data-Intensive Applications
+  description: |
+    UPDATE: Date changed from 24 Nov to Dec 15  This book will help yom   Peer under the hood of the systems you already use, and learn how to use and operate them more effectively  Make informed decisions by identifying the strengths and weaknesses of different tools  Navigate the trade-offs around consistency, scalability, fault tolerance, and complexity  Understand the distributed systems research upon which modern databases are built  Peek behind the scenes of major online services, and learn from their architectures  - Goodreads  If you want to have a say in the next book, please join our Slack channel progbookclub! And if you would like to volunteer, do join our volunteering channel bookclubvolunteers.
+  category_style: book-club
+  category_name: Book Club
+  date: MON, DEC 15, 2025
+  expiration: "20251215"
+  host: "Silke Nodwell and Prabha Venkatesh"
+  speaker: ""
+  time: 07:00 PM GMT
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/3/4/d/b/600_529753531.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/310632593/
+    title: View meetup event
+    target: _target
+  uid: "updated_nov_book_club:_designing_data-intensive_applications_20251215"
 
 - title: |
     Build Better Flows, Reduce Bugs, Think Like a Product Person
@@ -1786,6 +1863,27 @@
     path: https://www.meetup.com/women-coding-community/events/312393688/
     title: View meetup event
     target: _target
+  uid: "build_better_flows_reduce_bugs_think_like_a_product_person_20260107"
+
+- title: |
+    January Book Club: Radical Candor
+  description: |
+    Women Coding Community Book Club!  Book: Radical Candor by Kim Scott  If you would like to have a say in our next book club read, do join our channel progbookclub.
+  category_style: book-club
+  category_name: Book Club
+  date: MON, JAN 26, 2026
+  expiration: "20260126"
+  host: "Silke Nodwell and Prabha Venkatesh"
+  speaker: ""
+  time: 07:00 PM GMT
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/c/0/1/4/600_530869172.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/311641238/
+    title: View meetup event
+    target: _target
+  uid: "january_book_club:_radical_candor_20260126"
 
 - title: |
     Fireside Chat with Meena - The Engineer Who Became a Manager
@@ -1804,6 +1902,7 @@
     path: https://www.meetup.com/women-coding-community/events/312820191/
     title: View meetup event
     target: _target
+  uid: "fireside_chat_with_meena_-_the_engineer_who_became_a_manager_20260128"
 
 - title: |
     DevOps++: Turning Green IT Ambition into Daily Engineering Actions
@@ -1822,6 +1921,7 @@
     path: https://www.meetup.com/women-coding-community/events/312842063/
     title: View meetup event
     target: _target
+  uid: "devops++:_turning_green_it_ambition_into_daily_engineering_actions_20260204"
 
 - title: Java bootcamp Launch
   description: |
@@ -1840,6 +1940,66 @@
     path: https://www.meetup.com/women-coding-community/events/312920485/
     title: View meetup event
     target: _target
+  uid: "java_bootcamp_launch_20260205"
+
+- title: |
+    Java bootcamp - Session 2
+  description: |
+    Do you want to build strong Java skills but don't know where to start? Do you feel overwhelmed juggling tutorials, documentation, and scattered resources while trying to learn Java on your own?  Our Java Bootcamp is designed to give you a clear, structured path to build practical Java skills through hands-on coding, not endless theory.
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: THU, FEB 12, 2026
+  expiration: "20260212"
+  host: "Zaynah Ahmed"
+  speaker: "Adriana Zencke Zimmermann, Sonali Goel"
+  time: 07:00 PM GMT
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/2/4/4/9/600_532629289.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/313253178/
+    title: View meetup event
+    target: _target
+  uid: "java_bootcamp_-_session_2_20260212"
+
+- title: Call for volunteers 2026
+  description: |
+    A Love Letter to our Community (and an Invitation!)  At the heart of the Women Coding Community is a simple idea: that we go further when we support one another.
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: FRI, FEB 13, 2026
+  expiration: "20260213"
+  host: ""
+  speaker: ""
+  time: 07:00 PM GMT
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/9/f/c/9/600_532540905.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/313162872/
+    title: View meetup event
+    target: _target
+  uid: "call_for_volunteers_2026_20260213"
+
+- title: |
+    Java bootcamp - Session 3
+  description: |
+    Do you want to build strong Java skills but don't know where to start? Do you feel overwhelmed juggling tutorials, documentation, and scattered resources while trying to learn Java on your own?  Our Java Bootcamp is designed to give you a clear, structured path to build practical Java skills through hands-on coding, not endless theory.
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: THU, FEB 19, 2026
+  expiration: "20260219"
+  host: "Zaynah Ahmed"
+  speaker: "Adriana Zencke Zimmermann, Sonali Goel"
+  time: 07:00 PM GMT
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/2/4/4/9/600_532629289.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/313256743/
+    title: View meetup event
+    target: _target
+  uid: "java_bootcamp_-_session_3_20260219"
 
 - title: |
     WCC Book Club February: TBD
@@ -1859,6 +2019,7 @@
     path: https://www.meetup.com/women-coding-community/events/313052113/
     title: View meetup event
     target: _target
+  uid: "wcc_book_club_february:_tbd_20260223"
 
 - title: |
     WCC Book Club: AI Engineering by Chip Huyen
@@ -1876,5 +2037,365 @@
     alt: WCC Meetup event image
   link:
     path: https://www.meetup.com/women-coding-community/events/313052113/
+    title: View meetup event
+    target: _target
+  uid: "wcc_book_club:_ai_engineering_by_chip_huyen_20260223"
+
+- title: |
+    Java bootcamp - Session 4
+  description: |
+    Do you want to build strong Java skills but don't know where to start? Do you feel overwhelmed juggling tutorials, documentation, and scattered resources while trying to learn Java on your own?  Our Java Bootcamp is designed to give you a clear, structured path to build practical Java skills through hands-on coding, not endless theory.
+  category_style: tech-talk
+  category_name: Tech Talk
+  date: THU, FEB 26, 2026
+  expiration: "20260226"
+  host: "Zaynah Ahmed"
+  speaker: "Adriana Zencke Zimmermann, Sonali Goel"
+  time: 07:00 PM GMT
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/2/4/4/9/600_532629289.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/313256761/
+    title: View meetup event
+    target: _target
+  uid: "java_bootcamp_-_session_4_20260226"
+
+- title: |
+    Java bootcamp - Session 5
+  description: |
+    Do you want to build strong Java skills but don't know where to start? Do you feel overwhelmed juggling tutorials, documentation, and scattered resources while trying to learn Java on your own?  Our Java Bootcamp is designed to give you a clear, structured path to build practical Java skills through hands-on coding, not endless theory.
+  category_style: tech-talk
+  uid: "event_313256771@meetup.com"
+  category_name: Tech Talk
+  date: THU, MAR 05, 2026
+  expiration: "20260305"
+  host: "Zaynah Ahmed"
+  speaker: "Adriana Zencke Zimmermann, Sonali Goel"
+  time: 07:00 PM GMT
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/2/4/4/9/600_532629289.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/313256771/
+    title: View meetup event
+    target: _target
+
+- title: |
+    Java Bootcamp: Vibe Coding with AI Agents & MCP
+  description: |
+    Ready to build a Java project  even if you've never written a line of Java before? This special edition of our Java Bootcamp series brings together everything we've been building with you, and takes it one step further.
+  category_style: tech-talk
+  uid: "event_313257077@meetup.com"
+  category_name: Tech Talk
+  date: THU, MAR 12, 2026
+  expiration: "20260312"
+  host: ""
+  speaker: ""
+  time: 06:30 PM GMT
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/5/4/a/2/600_532941666.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/313257077/
+    title: View meetup event
+    target: _target
+    resources:
+      presentation:
+      - https://docs.google.com/presentation/d/1qIiJUr6Lr9io3n3EbFFPiGMpOYdIrM6H/edit?slide=id.p1#slide=id.p1
+      youtube: https://youtu.be/K6Vr4oMHuEI
+
+- title: |
+    Java Bootcamp: The Grand Finale Hack Hour
+  description: |
+    The Women Coding Community (WCC) is wrapping up our Java Fullstack Bootcamp with a high-energy, hands-on Hack Hour session.
+  category_style: tech-talk
+  uid: "event_313574241@meetup.com"
+  category_name: Tech Talk
+  date: FRI, MAR 13, 2026
+  expiration: "20260313"
+  host: ""
+  speaker: ""
+  time: 06:00 PM GMT
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/9/4/0/7/600_532957895.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/313574241/
+    title: View meetup event
+    target: _target
+    resources:
+      presentation:
+      - https://docs.google.com/presentation/d/1GzJ5OlceIw-fZt6ptiQQY1OgiXxJWv_LKSTZKgBE3uQ/edit?slide=id.p1#slide=id.p1
+      youtube: https://www.youtube.com/watch?v=x7Fz8BvZb_Q
+
+- title: |
+    Vibe Coding in London: Java, AI Agents & MCP Hands-On
+  description: |
+    The Women Coding Community (WCC) is celebrating International Women's Week with a high-energy, hands-on Vibe Coding in London.
+  category_style: tech-talk
+  uid: "event_313681243@meetup.com"
+  category_name: Tech Talk
+  date: FRI, MAR 13, 2026
+  expiration: "20260313"
+  host: ""
+  speaker: ""
+  time: 06:00 PM GMT
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/7/d/6/c/600_533072108.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/313681243/
+    title: View meetup event
+    target: _target
+
+- title: |
+    Own your voice: Assertive Communication for Women in Tech
+  description: "We\u2019re thrilled to re-launch the Women Coding Community Career Club!   We are kicking off with a powerful session led by Yasuko Ohtake, a leading technologist who will share candid insights from her career and practical strategies for visibility and influence in tech.\n"
+  category_style: tech-talk
+  uid: "event_313463081@meetup.com"
+  category_name: Tech Talk
+  date: TUE, MAR 17, 2026
+  expiration: "20260317"
+  host: "Julia Babahina"
+  speaker: "Yasuko Ohtake"
+  time: 07:00 PM GMT
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/9/f/a/b/600_532840875.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/313463081/
+    title: View meetup event
+    target: _target
+
+- title: |
+    2026 International Women's Day Celebration - Feast, Talks & Tech Community
+  description: |
+    In partnership with Nando's Women in Engineering   Celebrate IWD with the best women in tech and incredible food! This International Women's Day, a number of London's most powerful women-in-tech communities are coming together for an unforgettable evening of inspiring talks, a delicious feast, a candid panel discussion, and genuine connection.
+  category_style: tech-talk
+  uid: "event_313538360@meetup.com"
+  category_name: Tech Talk
+  date: THU, MAR 19, 2026
+  expiration: "20260319"
+  host: ""
+  speaker: ""
+  time: 06:00 PM GMT
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/2/e/0/e/600_533231790.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/313538360/
+    title: View meetup event
+    target: _target
+
+- title: Design Patterns Course
+  description: |
+    Join Women Coding Community for our next session on design patterns!  Design Patterns Course In this series of events, we will explore popular design patterns and their implementations in Python and Java, using "Head First Design Patterns" as our reference book.
+  category_style: tech-talk
+  uid: "event_313672586@meetup.com"
+  category_name: Tech Talk
+  date: TUE, MAR 24, 2026
+  expiration: "20260324"
+  host: "Irina Kamalova"
+  speaker: ""
+  time: 07:00 PM GMT
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/5/d/b/1/600_533063985.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/313672586/
+    title: View meetup event
+    target: _target
+
+- title: |
+    March Book Club: AI Engineering part 2 and Showcase
+  description: |
+    Women Coding Community Book Club!  March 2026 Book: AI Engineering by Chip Huyen (continued) With a small showcase of AI engineering projects by WCC members   If you would like to have a say in our next book club read, do join our channel progbookclub.
+  category_style: book-club
+  uid: "event_313316083@meetup.com"
+  category_name: Book Club
+  date: MON, MAR 30, 2026
+  expiration: "20260330"
+  host: "Silke Nodwell, Prabha Venkatesh"
+  speaker: ""
+  time: 07:00 PM BST
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/7/0/d/7/600_532888887.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/313316083/
+    title: View meetup event
+    target: _target
+
+- title: |
+    From Idea to Execution: The Clarity of Building With Purpose
+  description: |
+    From Idea to Execution How to define real user problems, prioritize effectively, and lead cross-functional teams to deliver meaningful results.
+  category_style: tech-talk
+  uid: "event_313608754@meetup.com"
+  category_name: Tech Talk
+  date: WED, APR 01, 2026
+  expiration: "20260401"
+  host: ""
+  speaker: "Ezinne Jennifer Aruma"
+  time: 07:00 PM BST
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/7/d/6/d/600_533072109.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/313608754/
+    title: View meetup event
+    target: _target
+
+- title: Design Patterns Course
+  description: |
+    Join Women Coding Community for our next session on design patterns!  Design Patterns Course In this series of events, we will explore popular design patterns and their implementations in Python and Java, using "Head First Design Patterns" as our reference book.
+  category_style: tech-talk
+  uid: "event_314059178@meetup.com"
+  category_name: Tech Talk
+  date: TUE, APR 14, 2026
+  expiration: "20260414"
+  host: "Irina Kamalova"
+  speaker: ""
+  time: 07:00 PM BST
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/5/d/e/8/600_533484040.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/314059178/
+    title: View meetup event
+    target: _target
+
+- title: "Capacity Planning \u2013 The Math in System Design"
+  description: |
+    Do you want to design systems that handle real-world loads without breaking a sweat? Do you feel unsure about how mathematical principles can guide your architectural decisions?  This event is designed to demystify the critical role of capacity planning in system design  through real conversations with speakers who have lived experience and professional expertise.
+  category_style: tech-talk
+  uid: "event_313858697@meetup.com"
+  category_name: Tech Talk
+  date: SAT, APR 18, 2026
+  expiration: "20260418"
+  host: "Silke Nodwell"
+  speaker: "Amita Singh"
+  time: 07:00 PM BST
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/6/8/5/8/600_533426712.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/313858697/
+    title: View meetup event
+    target: _target
+
+- title: Design Patterns Course
+  description: |
+    Join Women Coding Community for our next session on design patterns!  Design Patterns Course In this series of events, we will explore popular design patterns and their implementations in Python and Java, using "Head First Design Patterns" as our reference book.
+  category_style: tech-talk
+  uid: "event_314060351@meetup.com"
+  category_name: Tech Talk
+  date: TUE, APR 21, 2026
+  expiration: "20260421"
+  host: "Irina Kamalova"
+  speaker: ""
+  time: 07:00 PM BST
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/5/d/f/7/600_533484055.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/314060351/
+    title: View meetup event
+    target: _target
+
+- title: Design Patterns Course
+  description: |
+    Join Women Coding Community for our next session on design patterns!  Design Patterns Course In this series of events, we will explore popular design patterns and their implementations in Python and Java, using "Head First Design Patterns" as our reference book.
+  category_style: tech-talk
+  uid: "event_314404011@meetup.com"
+  category_name: Tech Talk
+  date: TUE, APR 28, 2026
+  expiration: "20260428"
+  host: "Irina Kamalova"
+  speaker: ""
+  time: 07:00 PM BST
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/5/d/f/7/600_533484055.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/314404011/
+    title: View meetup event
+    target: _target
+
+- title: Mentorship Program Launch 2026
+  description: "We\u2019re excited to invite you to the official launch of the Women Coding Community (WCC) Annual Mentorship Program 2026! Whether you\u2019re an aspiring mentee, an experienced mentor, or simply curious about how mentorship can accelerate your growth  this event is for you.\n"
+  category_style: tech-talk
+  uid: "event_314322474@meetup.com"
+  category_name: Tech Talk
+  date: FRI, MAY 01, 2026
+  expiration: "20260501"
+  host: ""
+  speaker: ""
+  time: 07:00 PM BST
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/9/7/c/0/600_533738848.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/314322474/
+    title: View meetup event
+    target: _target
+
+- title: Design Patterns Course
+  description: |
+    Join Women Coding Community for our next session on design patterns!  Design Patterns Course In this series of events, we will explore popular design patterns and their implementations in Python and Java, using "Head First Design Patterns" as our reference book.
+  category_style: tech-talk
+  uid: "event_314404622@meetup.com"
+  category_name: Tech Talk
+  date: TUE, MAY 05, 2026
+  expiration: "20260505"
+  host: "Irina Kamalova"
+  speaker: ""
+  time: 07:00 PM BST
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/5/d/f/7/600_533484055.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/314404622/
+    title: View meetup event
+    target: _target
+
+- title: |
+    May Book Club: Deep Work - Rules for Focused Success in a Distracted World
+  description: |
+    Women Coding Community Book Club!  This month's book: Deep Work: Rules for Focused Success in a Distracted World by Cal Newport  In Deep Work, author and professor Cal Newport flips the narrative on impact in a connected age.
+  category_style: book-club
+  uid: "event_314369910@meetup.com"
+  category_name: Book Club
+  date: WED, MAY 20, 2026
+  expiration: "20260520"
+  host: "Silke Nodwell, Prabha Venkatesh"
+  speaker: ""
+  time: 07:00 PM BST
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/8/8/6/1/600_533794913.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/314369910/
+    title: View meetup event
+    target: _target
+
+- title: |
+    June Book Club: Dare to Lead
+  description: |
+    Women Coding Community Book Club!  June Book: Dare to Lead  Leadership is not about titles, status and power over people.
+  category_style: book-club
+  uid: "event_314370379@meetup.com"
+  category_name: Book Club
+  date: MON, JUN 22, 2026
+  expiration: "20260622"
+  host: "Silke Nodwell, Prabha Venkatesh"
+  speaker: ""
+  time: 07:00 PM BST
+  image:
+    path: "https://secure.meetupstatic.com/photos/event/8/9/f/0/600_533795312.jpeg"
+    alt: WCC Meetup event image
+  link:
+    path: https://www.meetup.com/women-coding-community/events/314370379/
     title: View meetup event
     target: _target

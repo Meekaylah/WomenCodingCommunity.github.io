@@ -58,18 +58,19 @@ class WebLink(BaseModel):
     title: str = "View meetup event"
     target: str = "_target"
 
-class MeetupEvents(BaseModel):
+class MeetupEvent(BaseModel):
     title: str
     description: str
     category_style: Optional[str] = "tech-talk"
+    uid: str
     category_name: Optional[str] = "Tech Talk"
     date: str
-    expiration: Optional[str] = ""
+    expiration: str = ""
     host: Optional[str] = ""
     speaker: Optional[str] = ""
     time: Optional[str] = ""
-    image: Optional[Image]
-    link: Optional[WebLink]
+    image: Optional[Image] = None
+    link: Optional[WebLink] = None
 
 
 # ----- Helper function to clean bold/italics markdown from a name -----
@@ -175,22 +176,20 @@ def get_event_image_url(url: str) -> str:
 
 
 # --- Main logic using downloaded iCal file ---
-def get_upcoming_meetups_from_ical_file(ical_path: str) -> list[MeetupEvents]:
+def get_upcoming_meetups_from_ical_file(ical_path: str) -> list[MeetupEvent]:
     with open(ical_path, "r", encoding="utf-8") as f:
         calendar = Calendar(f.read())
 
-    # sort events to ensure order by event date
-    sorted_events = sorted(calendar.events, key=lambda e: e.begin)
+    upcoming_meetups: list[MeetupEvent] = []
 
-    upcoming_meetups: list[MeetupEvents] = []
-
-    for event in sorted_events:
+    for event in calendar.events:
         title = event.name
         date_obj = event.begin.datetime
         expiration = date_obj.strftime("%Y%m%d")
         date = date_obj.strftime("%a, %b %d, %Y").upper()
         time = event.begin.datetime.strftime("%I:%M %p %Z")
         url = event.url or ""
+        uid = event.uid
 
         full_description = (event.description or "").strip()
 
@@ -218,7 +217,7 @@ def get_upcoming_meetups_from_ical_file(ical_path: str) -> list[MeetupEvents]:
             category_name = "Career Talk"
 
         upcoming_meetups.append(
-            MeetupEvents(
+            MeetupEvent(
                 title=title,
                 description=description.replace("\n", " "),
                 category_style=category_style,
@@ -230,37 +229,48 @@ def get_upcoming_meetups_from_ical_file(ical_path: str) -> list[MeetupEvents]:
                 speaker=speaker,
                 image=Image(path=image_url, alt="WCC Meetup event image"),
                 link=WebLink(path=url),
+                uid=uid,
             )
         )
     return upcoming_meetups
 
 # --- Processing and output ---
-def process_meetup_data(meetup: dict) -> dict:
+def build_event_uid_from_title_and_date(title: str, date: str) -> str:
+    # This is only necessary for some past events that were missing UIDs
+    # Going forward we should have UIDs for all events from the iCal feed so this is just a fallback
+    # (uid is a required field in MeetupEvent)
+    normalized_title = "_".join((title or "").split()).replace(",", "").replace("&", "").lower()
+    normalized_date = "_".join((date or "").split()).replace(",", "").lower()
+    return f"{normalized_title}_{normalized_date}"
+
+
+def add_missing_uid_fields_for_past_events(events: list[dict]) -> list[dict]:
+    for event in events:
+        if not event.get("uid"):
+            event["uid"] = build_event_uid_from_title_and_date(event.get("title", ""), event.get("expiration", event.get("date", "")))
+    return events
+
+def process_meetup_data(meetup: MeetupEvent) -> dict:
     meetup["title"] = to_literal_str(meetup["title"])
     meetup["description"] = to_literal_str(meetup["description"])
     meetup["expiration"] = QuotedString(meetup["expiration"])
+    meetup["uid"] = to_quoted_str(meetup["uid"])
     meetup["host"] = QuotedString(meetup.get("host", ""))
     meetup["speaker"] = QuotedString(meetup.get("speaker", ""))
-    if "image" in meetup:
+        
+    if meetup.get("image"):
         meetup["image"]["path"] = to_quoted_str(meetup["image"]["path"])
         meetup["image"]["alt"] = to_quoted_str(meetup["image"]["alt"])
-    if "link" in meetup and "title" in meetup["link"]:
+    if meetup.get("link") and meetup["link"].get("title"):
         meetup["link"]["title"] = to_quoted_str(meetup["link"]["title"])
     return meetup
-
-# --- Create a unique key for an event using "title - date" ----
-def get_event_key(event):
-    return f"{event.get('title').strip()} - {event.get('date')}"
-
-# --- Get a Set of keys for existing events ----
-def get_existing_event_keys(events):
-    return {get_event_key(e) for e in events}
 
 # --- Get existing events in yml file ----
 def load_existing_events_from_file(file_path):
     try:
         with open(file_path, "r") as file:
-            return yaml.safe_load(file) or []
+            events = yaml.safe_load(file) or []
+            return add_missing_uid_fields_for_past_events(events)
     except FileNotFoundError:
         return []
     except (IOError, yaml.YAMLError) as e:
@@ -278,6 +288,49 @@ def append_events_to_yaml_file(file_path, data):
         logging.error(f"Error appending new events to file '{file_path}': {e}")
         raise
 
+def get_event_key(event: Union[MeetupEvent, dict]) -> str:
+    if isinstance(event, dict):
+        return event.get("uid") or build_event_uid_from_title_and_date(event.get("title", ""), event.get("date", ""))
+    return event.uid
+
+def add_upcoming_events_to_existing_events(upcoming_events: list[MeetupEvent], existing_events: list[dict]) -> list[dict]:
+    """Merges upcoming events with existing events, removes duplicates based on UID, and sorts by expiration date (upcoming events first)."""
+    from datetime import datetime
+
+    # Merge all events by UID (upcoming overwrites existing)
+    all_events_dict = {get_event_key(event): event for event in existing_events}
+    for future_event in upcoming_events:
+        event_key = get_event_key(future_event)
+        all_events_dict[event_key] = future_event.model_dump()
+
+    all_events = list(all_events_dict.values())
+
+    # Split into past and future events based on expiration - note that some existing_events might be in the future
+    today = datetime.now().strftime("%Y%m%d")
+    def is_future(event):
+        exp = event.get("expiration", "") if isinstance(event, dict) else getattr(event, "expiration", "")
+        return exp >= today
+
+    past_events = [e for e in all_events if not is_future(e)]
+    future_events = [e for e in all_events if is_future(e)]
+
+    # Sort both past and future events by expiration date
+    past_events_sorted = sorted(past_events, key=lambda e: e.get("expiration", "") if isinstance(e, dict) else getattr(e, "expiration", ""))
+    future_events_sorted = sorted(future_events, key=lambda e: e.get("expiration", "") if isinstance(e, dict) else getattr(e, "expiration", ""))
+
+    # Concatenate sorted past + sorted future
+    return past_events_sorted + future_events_sorted
+
+def write_all_events_to_yaml_file(file_path, all_events: list[dict]):
+    try:
+        with open(file_path, "w") as file:
+            for event in all_events:
+                file.write("\n")
+                file.write(yaml.dump([process_meetup_data(event)], sort_keys=False, width=2000))
+    except (IOError, yaml.YAMLError) as e:
+        logging.error(f"Error writing events to file '{file_path}': {e}")
+        raise
+
 # --- Script Start ---
 def fetch_events():
     logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -287,30 +340,10 @@ def fetch_events():
 
     logging.info("Params: iCal URL: %s yml: %s", ical_file_path, yml_file_path)
     upcoming_events = get_upcoming_meetups_from_ical_file(ical_file_path)
-
     existing_events = load_existing_events_from_file(yml_file_path)
-    existing_keys = get_existing_event_keys(existing_events)
-    added_events = []
-    
-    logging.info("Upcoming Meetup Events:")
-    for event in upcoming_events:
-        
-        logging.info(f"{event.title}")
-        formatted_event = process_meetup_data(event.model_dump())
-        event_key = get_event_key(formatted_event)
+    all_events = add_upcoming_events_to_existing_events(upcoming_events, existing_events)
 
-        if event_key not in existing_keys:
-            added_events.append(formatted_event)
-            existing_keys.add(event_key)
-        else:
-            logging.info(f"{event_key} already exists in events.yml")
-
-    if len(added_events) > 0:
-        append_events_to_yaml_file(yml_file_path, added_events)
-        logging.info(f"Added {len(added_events)} new event(s) to events.yml.")
-    else:
-        logging.info("No new events to add.")
-
+    write_all_events_to_yaml_file(yml_file_path, all_events)
 
 if __name__ == "__main__":
     fetch_events()
